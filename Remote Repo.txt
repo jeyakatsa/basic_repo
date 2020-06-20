@@ -1,0 +1,93 @@
+
+Jeyak@DESKTOP-JID5NJA MINGW64 /
+$ cd ~/OneDrive/Desktop
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop
+$ mkdir repo
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop
+$ cd repo
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo
+$ git init
+Initialized empty Git repository in C:/Users/Jeyak/OneDrive/Desktop/repo/.git/
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo (master)
+$ >index.html >styles.css
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo (master)
+$ code .
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo (master)
+$ git add .
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo (master)
+$ cd -
+/c/Users/Jeyak/OneDrive/Desktop
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop
+$ mkdir basic_repo
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop
+$ cd repo
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/repo (master)
+$ cd -
+/c/Users/Jeyak/OneDrive/Desktop
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop
+$ cd basic_repo
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo
+$ git init
+Initialized empty Git repository in C:/Users/Jeyak/OneDrive/Desktop/basic_repo/.
+git/
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ >index.html >styles.css
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ code .
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git add .
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git commit -m "init commit"
+[master (root-commit) c5d00e3] init commit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git remote add origin https://github.com/jeyakatsa/basic_repo.git
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 292 bytes | 292.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jeyakatsa/basic_repo.git
+ * [new branch]      master -> master
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git add .
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git commit -m "changes"
+[master 51f1f12] changes
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 346 bytes | 173.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jeyakatsa/basic_repo.git
+   c5d00e3..51f1f12  master -> master
