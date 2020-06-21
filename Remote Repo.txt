@@ -47,9 +47,6 @@ Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
 $ >index.html >styles.css
 
 Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
-$ code .
-
-Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
 $ git add .
 
 Jeyak@DESKTOP-JID5NJA MINGW64 ~/OneDrive/Desktop/basic_repo (master)
